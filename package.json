@@ -1,0 +1,20 @@
+{
+  "name": "no-bundler-in-browser",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "connect": "^3.7.0",
+    "lodash-es": "^4.17.21",
+    "nodemon": "^2.0.20",
+    "sirv": "^2.0.2"
+  }
+}
